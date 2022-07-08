@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerTreatPatient">
+   <children>
+      <Button fx:id="logoutButton" layoutX="14.0" layoutY="525.0" mnemonicParsing="false" onAction="#logOut" text="Log Out" />
+      <Label fx:id="searchLabel" layoutX="68.0" layoutY="14.0" prefHeight="25.0" prefWidth="213.0" text="Enter Patient Name Below:" />
+      <TextField fx:id="patientNameField" layoutX="56.0" layoutY="39.0" prefHeight="25.0" prefWidth="238.0" />
+      <Button fx:id="okButton" layoutX="159.0" layoutY="71.0" mnemonicParsing="false" onAction="#okPressed" text="Ok" />
+      <Label fx:id="ApatientLabel" layoutX="5.0" layoutY="125.0" prefHeight="175.0" prefWidth="337.0" visible="false" />
+      <Line fx:id="dividor" endX="144.0" layoutX="175.0" layoutY="313.0" startX="-152.0" visible="false" />
+      <Label fx:id="treatmentLabel" layoutX="14.0" layoutY="337.0" prefHeight="17.0" prefWidth="137.0" text="Enter Treatment:" visible="false" />
+      <Label fx:id="prescriptionLabel" layoutX="14.0" layoutY="395.0" prefHeight="17.0" prefWidth="137.0" text="Prescription:" visible="false" />
+      <TextField fx:id="treatmentField" layoutX="159.0" layoutY="333.0" prefHeight="25.0" prefWidth="177.0" visible="false" />
+      <TextField fx:id="prescriptionField" layoutX="159.0" layoutY="391.0" prefHeight="25.0" prefWidth="177.0" visible="false" />
+      <Button fx:id="confirmButton" layoutX="125.0" layoutY="448.0" mnemonicParsing="false" onAction="#confirmPressed" text="Confirm" visible="false" />
+      <Label fx:id="completeLabel" layoutX="194.0" layoutY="529.0" prefHeight="17.0" prefWidth="117.0" text="Complete!" visible="false" />
+   </children>
+</AnchorPane>

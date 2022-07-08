@@ -1,0 +1,16 @@
+Patient ID: 232433
+Name: David Davidson
+Date: 2/09/2022,10:30 am
+Amount: $212
+Payment Type: Debit Visa ޢ��GL41�.��.ڈ
+PIN: ��hӍ�b66�g�]Jx
+Reference Number: | 999999 | 577638 | 141687 | 681357 | 849778
+
+Patient ID: 33422
+Name: Jacob Cole
+Date: 9/19/2022,7:30 am
+Amount: $156
+Payment Type: Cash
+PIN: N/A
+Reference Number: | 246918 | 412734
+

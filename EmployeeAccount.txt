@@ -1,0 +1,71 @@
+Employee: Dr. Dan
+Type: Doctor
+ID: 659842
+Password: mouse32134
+Denied
+
+Employee: Dr. Hank
+Type: Doctor
+ID: 628585
+Password: dog372453
+Granted
+
+Employee: Dr. Frank
+Type: Doctor
+ID: 324568
+Password: pass123
+Granted
+
+Employee: Dr. Larry
+Type: Doctor
+ID: 485265
+Password: peace231423
+Granted
+
+Employee: Dr. Luis
+Type: Doctor
+ID: 789521
+Password: hotdog23121
+Granted
+
+Employee: Pam
+Type: Nurse
+ID: 568217
+Password: hap123
+Granted
+
+Employee: Mara
+Type: Nurse
+ID: 473265
+Password: hello321
+Granted
+
+Employee: Ana
+Type: Nurse
+ID: 138951
+Password: jump2342
+Granted
+
+Employee: Amelia
+Type: Nurse
+ID: 367815
+Password: key124123
+Granted
+
+Employee: Rosa
+Type: Nurse
+ID: 015796
+Password: fight112344
+Granted
+
+Employee: Jenny
+Type: Staff
+ID: 436987
+Password: test321
+Denied
+
+Employee: Matt
+Type: Staff
+ID: 254789
+Password: not234214
+Granted

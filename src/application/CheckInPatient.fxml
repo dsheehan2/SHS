@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CheckInPatientController">
+   <children>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="541.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
+      <Label fx:id="nameLabel" layoutX="29.0" layoutY="22.0" prefHeight="25.0" prefWidth="193.0" text="Enter Patient Name:" />
+      <Label fx:id="dateLabel" layoutX="29.0" layoutY="70.0" prefHeight="17.0" prefWidth="193.0" text="Enter Birth Date:" />
+      <TextField fx:id="nameField" layoutX="244.0" layoutY="22.0" prefHeight="25.0" prefWidth="223.0" />
+      <TextField fx:id="dateField" layoutX="244.0" layoutY="66.0" prefHeight="25.0" prefWidth="223.0" />
+      <Button fx:id="okButton" layoutX="507.0" layoutY="47.0" mnemonicParsing="false" onAction="#okPressed" text="Ok" />
+      <Label fx:id="apptLabel" layoutX="29.0" layoutY="118.0" prefHeight="33.0" prefWidth="237.0" text="Appointment Information:" visible="false" />
+      <Label fx:id="appointmentBox" layoutX="29.0" layoutY="151.0" prefHeight="92.0" prefWidth="282.0" visible="false" />
+      <Line fx:id="line2" endX="500.0" layoutX="115.0" layoutY="251.0" startX="-100.0" visible="false" />
+      <Line fx:id="line1" endX="496.0" layoutX="116.0" layoutY="118.0" startX="-100.0" visible="false" />
+      <Line fx:id="line3" endX="-100.0" endY="132.0" layoutX="409.0" layoutY="118.0" startX="-100.0" visible="false" />
+      <Label fx:id="patientInfoLabel" layoutX="330.0" layoutY="122.0" prefHeight="25.0" prefWidth="237.0" text="Patient Information:" visible="false" />
+      <Label fx:id="patientInfoBox" layoutX="315.0" layoutY="147.0" prefHeight="101.0" prefWidth="237.0" visible="false" />
+      <Button fx:id="updateButton" layoutX="590.0" layoutY="172.0" mnemonicParsing="false" onAction="#updatePressed" text="Update?" visible="false" />
+      <Button fx:id="newButton" layoutX="540.0" layoutY="172.0" mnemonicParsing="false" onAction="#newPressed" prefHeight="17.0" prefWidth="101.0" text="Create Account" visible="false" />
+      <Label fx:id="newPatientLabel" layoutX="237.0" layoutY="255.0" prefHeight="17.0" prefWidth="206.0" text="Create New Patient:" visible="false" />
+      <Label fx:id="newPatientIDLabel" layoutX="160.0" layoutY="285.0" prefHeight="17.0" prefWidth="88.0" text="Patient ID:" visible="false" />
+      <Label fx:id="newAddressLabel" layoutX="160.0" layoutY="325.0" prefHeight="17.0" prefWidth="88.0" text="Address:" visible="false" />
+      <Label fx:id="newPhoneLabel" layoutX="160.0" layoutY="361.0" prefHeight="17.0" prefWidth="120.0" text="Phone Number:" visible="false" />
+      <Label fx:id="newEmailLabel" layoutX="160.0" layoutY="399.0" prefHeight="17.0" prefWidth="60.0" text="Email:" visible="false" />
+      <Label fx:id="newSSNLabel" layoutX="160.0" layoutY="436.0" prefHeight="17.0" prefWidth="223.0" text="SSN:" visible="false" />
+      <Label fx:id="newInsuranceLabel" layoutX="160.0" layoutY="477.0" prefHeight="17.0" prefWidth="101.0" text="Insurance:" visible="false" />
+      <Button fx:id="createButton" layoutX="387.0" layoutY="520.0" mnemonicParsing="false" onAction="#createPressed" text="Create" visible="false" />
+      <PasswordField fx:id="newSSNField" layoutX="289.0" layoutY="432.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <TextField fx:id="newPatientIDField" layoutX="289.0" layoutY="281.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <TextField fx:id="newAddressField" layoutX="289.0" layoutY="321.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <TextField fx:id="newPhoneField" layoutX="289.0" layoutY="357.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <TextField fx:id="newEmailField" layoutX="289.0" layoutY="395.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <TextField fx:id="newInsuranceField" layoutX="289.0" layoutY="473.0" prefHeight="25.0" prefWidth="223.0" visible="false" />
+      <Label fx:id="completeLabel" layoutX="165.0" layoutY="537.0" prefHeight="17.0" prefWidth="110.0" text="Complete!" visible="false" />
+      <Label fx:id="changeInfoLabel" layoutX="234.0" layoutY="255.0" prefHeight="17.0" prefWidth="156.0" text="Change Information:" visible="false" />
+      <Button fx:id="noButton" layoutX="604.0" layoutY="206.0" mnemonicParsing="false" onAction="#noUpdate" text="No" visible="false" />
+      <Button fx:id="changeButton" layoutX="387.0" layoutY="525.0" mnemonicParsing="false" onAction="#changePressed" text="Change" visible="false" />
+   </children>
+</AnchorPane>
